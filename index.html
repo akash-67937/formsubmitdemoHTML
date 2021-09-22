@@ -98,8 +98,6 @@
                	  	 </div>
                	  </div>
                </div>
-               <!-- contact btn -->
-               <a href="#" class="btn btn-01">Contact Me</a>
 
  			</div>
  		</div>
@@ -255,7 +253,6 @@
  </section>
  <!-- Work Section End --> 
 
-
 <!-- Contact Section Start -->
 <section class="contact-section" id="contact">
 	<div class="container">
@@ -270,21 +267,29 @@
 		</div>
         <div class="row">
         	<div class="contact-form">
-        		<form class="form" action="https://formsubmit.co/akashshinde43187@gmail.com" method="POST">
+        		<form class="form" action="https://formsubmit.co/42515029176f1ceaaf73d45fecfc99c7" method="POST">
+                    <!-- Honeypot -->
+                    <input type="text" name="_honey" style="display: none;">
+                    
+                    <!-- Disable Captcha -->
+                    <input type="hidden" name="_captcha" value="false">
+                    
+                    <input type="hidden" name="text" value="https://akash-67937.github.io/formsubmitdemomain1/success.html">
+                    
         			<div class="row">
         				<div class="left input-group">
-        					<label>Name</label>
-        					<input type="text" placeholder="Your Name Here" class="input-control">
+        					<label for="FirstName" class="form-label">Name:</label>
+         					<input type="text" class="input-control" name="name" id="firstName" required>
         				</div>
         				<div class="right input-group">
-        					<label>Email or Phone</label>
-        					<input type="text" placeholder="Your Email or Phone Here" class="input-control">
+        					<label>Email:</label>
+        					<input type="text" class="input-control" name="email" id="emailInfo" required>
         				</div>
         			</div>
         			<div class="row">
         				<div class="input-group">
-        					<label>Message</label>
-        					<textarea class="input-control" placeholder="Your Message Here"></textarea>
+        					<label>Message:</label>
+        					<textarea class="input-control" id="Message" name="message" required></textarea>
         				</div>
         			</div>
         			<div class="form-btn">
